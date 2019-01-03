@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Dec 25 12:07:43 CST 2017
+stax2-api-3.1.4.jar>jboss-ga-repository=
+stax2-api-3.1.4.pom>jboss-ga-repository=
+stax2-api-3.1.4.pom>maven2-repository.java.net=
+stax2-api-3.1.4.jar>maven2-repository.apache.org=
+stax2-api-3.1.4.jar>maven2-repository.java.net=
+stax2-api-3.1.4.pom>maven2-repository.apache.org=

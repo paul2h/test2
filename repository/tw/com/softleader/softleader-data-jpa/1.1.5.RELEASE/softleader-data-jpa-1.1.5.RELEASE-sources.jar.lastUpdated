@@ -1,0 +1,16 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Dec 08 01:16:29 CST 2016
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=Could not transfer artifact tw.com.softleader\:softleader-data-jpa\:jar\:sources\:1.1.5.RELEASE from/to thirdparty (http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty)\: SocketTimeoutException
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=
+@default-thirdparty-http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1481130931475
+http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.error=Could not transfer artifact tw.com.softleader\:softleader-data-jpa\:jar\:sources\:1.1.5.RELEASE from/to jboss-ga-repository (http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/)\: SocketTimeoutException
+@default-com.springsource.repository.bundles.release-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1481130963367
+http\://repository.springsource.com/maven/bundles/release/.error=Could not transfer artifact tw.com.softleader\:softleader-data-jpa\:jar\:sources\:1.1.5.RELEASE from/to com.springsource.repository.bundles.release (http\://repository.springsource.com/maven/bundles/release)\: SocketTimeoutException
+http\://repository.springsource.com/maven/bundles/external/.error=Could not transfer artifact tw.com.softleader\:softleader-data-jpa\:jar\:sources\:1.1.5.RELEASE from/to com.springsource.repository.bundles.external (http\://repository.springsource.com/maven/bundles/external)\: SocketTimeoutException
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1481130912425
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=
+@default-com.springsource.repository.bundles.external-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1481130982501
+https\://repo.maven.apache.org/maven2/.lastUpdated=1481130989632
+https\://repo.maven.apache.org/maven2/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1481130918764
+@default-jboss-ga-repository-http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.lastUpdated=1481130944212

@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Dec 27 16:37:36 CST 2017
+http\://repo.maven.apache.org/maven2/.lastUpdated=1514363856141
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=Could not transfer artifact jfree\:jcommon\:pom\:1.0.16 from/to snapshot (http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots)\: connect timed out
+@default-thirdparty-http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1514363855737
+@default-release-http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1514363835727
+@default-snapshot-http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1514363845734
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=Could not transfer artifact jfree\:jcommon\:pom\:1.0.16 from/to thirdparty (http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty)\: connect timed out
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=Could not transfer artifact jfree\:jcommon\:pom\:1.0.16 from/to release (http\://softleader.com.tw\:8082/nexus/content/repositories/releases)\: connect timed out

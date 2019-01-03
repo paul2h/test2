@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>tw.com.softleader</groupId>
+		<artifactId>softleader-framework</artifactId>
+		<version>1.1.1.RELEASE</version>
+	</parent>
+	<packaging>jar</packaging>
+
+	<artifactId>softleader-data-jpa</artifactId>
+
+	<name>softleader-data-jpa</name>
+	<url>http://www.softleader.com.tw</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<!-- softleader -->
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-data</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
+		<!-- spring -->
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+		</dependency>
+		
+	</dependencies>
+</project>

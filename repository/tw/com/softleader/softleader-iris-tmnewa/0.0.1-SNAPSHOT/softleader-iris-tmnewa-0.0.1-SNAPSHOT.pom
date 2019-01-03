@@ -1,0 +1,304 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>tw.com.softleader</groupId>
+	<artifactId>softleader-iris-tmnewa</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+
+	<name>softleader-iris-tmnewa</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<softleader-framework.version>1.1.5.RELEASE</softleader-framework.version>
+		<source.code.version>1.8</source.code.version>
+		<cxf.version>3.1.6</cxf.version>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>release</id>
+			<name>SoftLeader Framework</name>
+			<url>http://softleader.com.tw:8082/nexus/content/repositories/releases</url>
+		</repository>
+		<repository>
+			<id>snapshot</id>
+			<name>SoftLeader Framework</name>
+			<url>http://softleader.com.tw:8082/nexus/content/repositories/snapshots</url>
+		</repository>
+		<repository>
+			<id>thirdparty</id>
+			<url>http://softleader.com.tw:8082/nexus/content/repositories/thirdparty</url>
+		</repository>
+		<!-- 如果有用softleader-rule-drools才要加, jboss有個jar檔沒有放到maven central, 所以要另外include 
+			jboss的repository -->
+		<repository>
+			<id>jboss-ga-repository</id>
+			<url>http://softleader.com.tw:8082/nexus/content/repositories/jboss-ga-repository/</url>
+		</repository>
+
+		<repository>
+			<id>com.springsource.repository.bundles.release</id>
+			<name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name>
+			<url>http://repository.springsource.com/maven/bundles/release</url>
+		</repository>
+
+		<repository>
+			<id>com.springsource.repository.bundles.external</id>
+			<name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
+			<url>http://repository.springsource.com/maven/bundles/external</url>
+		</repository>
+	</repositories>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>io.spring.platform</groupId>
+				<artifactId>platform-bom</artifactId>
+				<version>2.0.3.RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<!-- 這個專案有用tiles, 裡面有2.2.1的mvel2, 舊版的會造成drools問題, 因此強制換成2.2.8 -->
+			<dependency>
+				<groupId>org.mvel</groupId>
+				<artifactId>mvel2</artifactId>
+				<version>2.2.8.Final</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<!-- java mail -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.5.0-b01</version>
+		</dependency>
+
+		<!-- softleader framework -->
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-domain-rule</artifactId>
+			<version>${softleader-framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-data-jpa</artifactId>
+			<version>${softleader-framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-domain</artifactId>
+			<version>${softleader-framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.nccc.creditcard-api</groupId>
+			<artifactId>tls-api</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.nccc.vpos</groupId>
+			<artifactId>credicard-vpos-api</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-web-mvc</artifactId>
+			<version>${softleader-framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-security</artifactId>
+			<version>${softleader-framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-test</artifactId>
+			<version>${softleader-framework.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- 3rd-party dependencies -->
+		<!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws -->
+		<dependency>
+		    <groupId>org.apache.cxf</groupId>
+		    <artifactId>cxf-rt-frontend-jaxws</artifactId>
+		    <version>${cxf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-transports-http</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+				
+				
+		<dependency>
+			<groupId>com.jolbox</groupId>
+			<artifactId>bonecp</artifactId>
+			<version>0.8.0.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>18.0</version><!--$NO-MVN-MAN-VER$ -->
+		</dependency>
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>core</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.googlecode.webutilities</groupId>
+			<artifactId>webutilities</artifactId>
+			<version>0.0.8</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.lowagie</groupId>
+			<artifactId>itext</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>itext-asian</artifactId>
+			<version>5.2.0</version>
+		</dependency>
+		<!-- Tiles -->
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-extras</artifactId>
+
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-servlet</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-jsp</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jsp-api</artifactId>
+			<version>2.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+
+
+		<!-- database -->
+		<dependency>
+			<groupId>postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>9.1-901-1.jdbc4</version>
+		</dependency>
+		<!-- mssql run /docs/maven-install-mssql-jdbc -->
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>sqljdbc4</artifactId>
+			<version>4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.informix.jdbc</groupId>
+			<artifactId>com.springsource.com.informix.jdbc</artifactId>
+			<version>3.0.0.JC3</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+
+		<finalName>${project.artifactId}-${project.version}</finalName>
+
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<source>${source.code.version}</source>
+					<target>${source.code.version}</target>
+					<showDeprecation>true</showDeprecation>
+					<showWarnings>true</showWarnings>
+					<fork>true</fork>
+					<meminitial>1024m</meminitial>
+					<maxmem>2024m</maxmem>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<warName>${project.artifactId}</warName>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+	<profiles>
+		<!-- Development environment @ my laptop -->
+		<profile>
+			<id>DEV</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<build>
+				<resources>
+					<resource>
+						<directory>${basedir}/src/main/resources</directory>
+					</resource>
+				</resources>
+			</build>
+		</profile>
+		<!-- Production environment @ production server -->
+		<profile>
+			<id>UAT</id>
+			<build>
+				<resources>
+					<resource>
+						<directory>${basedir}/src/main/resources</directory>
+						<excludes>
+							<exclude>**/datasource.properties</exclude>
+							<exclude>**/logback.xml</exclude>
+							<exclude>**/mail.properties</exclude>
+							<exclude>**/spring-database.xml</exclude>
+							<exclude>**/spring-security.xml</exclude>
+							<exclude>**/spring-service.xml</exclude>
+						</excludes>
+					</resource>
+					<resource>
+						<directory>${basedir}/src/main/resources-uat</directory>
+					</resource>
+				</resources>
+			</build>
+		</profile>
+	</profiles>
+</project>

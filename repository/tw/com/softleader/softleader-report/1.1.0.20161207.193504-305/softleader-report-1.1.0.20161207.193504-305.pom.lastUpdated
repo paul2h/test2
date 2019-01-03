@@ -1,0 +1,11 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Dec 08 10:20:04 CST 2016
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=
+http\://www.mygrid.org.uk/maven/repository/.lastUpdated=1481163603651
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1481163604207
+http\://www.mygrid.org.uk/maven/repository/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1481163081791
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1481163604231
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1481163604184

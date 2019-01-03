@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Oct 05 15:23:03 CST 2017
+tomcat-embed-core-8.0.32.pom>central=
+tomcat-embed-core-8.0.32-sources.jar>central=
+tomcat-embed-core-8.0.32.jar>jboss-ga-repository=
+tomcat-embed-core-8.0.32.jar>central=
+tomcat-embed-core-8.0.32.pom>jboss-ga-repository=

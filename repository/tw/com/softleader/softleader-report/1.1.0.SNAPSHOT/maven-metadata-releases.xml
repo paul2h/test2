@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>tw.com.softleader</groupId>
+  <artifactId>softleader-report</artifactId>
+  <version>1.1.0.SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20161212.032254</timestamp>
+      <buildNumber>314</buildNumber>
+    </snapshot>
+    <lastUpdated>20161212032254</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.1.0.20161212.032254-314</value>
+        <updated>20161212032254</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.1.0.20161212.032254-314</value>
+        <updated>20161212032254</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

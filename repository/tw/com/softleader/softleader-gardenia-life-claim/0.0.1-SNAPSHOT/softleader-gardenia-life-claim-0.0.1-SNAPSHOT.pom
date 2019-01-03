@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>softleader-gardenia-life-claim</artifactId>
+	<description>SoftLeader project for gardenia-life-claim</description>
+	<packaging>jar</packaging>
+
+	<parent>
+		<groupId>tw.com.softleader</groupId>
+		<artifactId>softleader-gardenia</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<name>softleader-gardenia-life-claim</name>
+	<url>http://www.softleader.com.tw</url>
+
+	<dependencies>
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-gardenia-life-data</artifactId>
+			<version>${gardenia.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-gardenia-life-policy</artifactId>
+			<version>${gardenia.version}</version>
+		</dependency>
+
+		<!-- softleader-framework -->
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-domain-rule</artifactId>
+			<version>${softleader-framework.version}</version>
+		</dependency>
+	</dependencies>
+</project>

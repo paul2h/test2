@@ -1,0 +1,18 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Dec 25 12:07:40 CST 2017
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=Could not transfer artifact org.codehaus.woodstox\:stax2-api\:pom\:3.1.4 from/to thirdparty (http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty)\: Connect to softleader.com.tw\:8082 [softleader.com.tw/118.163.91.247] failed\: Connection timed out\: connect
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1514173869512
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=Could not transfer artifact org.codehaus.woodstox\:stax2-api\:pom\:3.1.4 from/to snapshot (http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots)\: Connect to softleader.com.tw\:8082 [softleader.com.tw/118.163.91.247] failed\: Connection timed out\: connect
+@default-thirdparty-http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1514173868104
+http\://download.java.net/maven/2/.lastUpdated=1514173868353
+http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.lastUpdated=1479457368656
+http\://repo.maven.apache.org/maven2/.lastUpdated=1514174860538
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://download.java.net/maven/2/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=Could not transfer artifact org.codehaus.woodstox\:stax2-api\:pom\:3.1.4 from/to release (http\://softleader.com.tw\:8082/nexus/content/repositories/releases)\: Connect to softleader.com.tw\:8082 [softleader.com.tw/118.163.91.247] failed\: Connection timed out\: connect
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.codehaus.woodstox\:stax2-api\:pom\:3.1.4 from/to central (https\://repo.maven.apache.org/maven2)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1514173869069
+@default-snapshot-http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1514173847084
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1514173868805
+@default-release-http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1514173826075

@@ -1,0 +1,13 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Dec 25 11:15:48 CST 2017
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1514171748565
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1479456547386
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1479456547332
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1479456547359
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact com.informix.jdbc\:com.springsource.com.informix.jdbc\:pom\:3.0.0.JC3 from/to central (https\://repo.maven.apache.org/maven2)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1479456548781
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1479456547862

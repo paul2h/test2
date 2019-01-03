@@ -1,0 +1,20 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Feb 26 13:31:48 CST 2018
+http\://repo1.maven.org/maven2/.lastUpdated=1519622844355
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1519622885410
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1519622885908
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=Could not transfer artifact com.google.code.ksoap2-android\:ksoap2-android\:pom\:3.6.2 from/to snapshot (http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots)\: connect timed out
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=Could not transfer artifact com.google.code.ksoap2-android\:ksoap2-android\:pom\:3.6.2 from/to release (http\://softleader.com.tw\:8082/nexus/content/repositories/releases)\: connect timed out
+@default-jboss-ga-repository-http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.lastUpdated=1519622884871
+http\://repo.maven.apache.org/maven2/.lastUpdated=1519622844850
+@default-release-http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1519622854856
+https\://oss.sonatype.org/content/repositories/.error=Could not transfer artifact com.google.code.ksoap2-android\:ksoap2-android\:pom\:3.6.2 from/to oss.sonatype.org (https\://oss.sonatype.org/content/repositories/)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+http\://repo.maven.apache.org/maven2/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+@default-snapshot-http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1519622864859
+@default-thirdparty-http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1519622874863
+@default-oss.sonatype.org-https\://oss.sonatype.org/content/repositories/.lastUpdated=1519623108325
+http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.error=Could not transfer artifact com.google.code.ksoap2-android\:ksoap2-android\:pom\:3.6.2 from/to jboss-ga-repository (http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/)\: connect timed out
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://repo1.maven.org/maven2/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=Could not transfer artifact com.google.code.ksoap2-android\:ksoap2-android\:pom\:3.6.2 from/to thirdparty (http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty)\: connect timed out

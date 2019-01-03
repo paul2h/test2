@@ -1,0 +1,22 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Oct 30 18:23:29 CST 2018
+http\://repo1.maven.org/maven2/.lastUpdated=1538733654666
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1538733686327
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1538733686806
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=Could not transfer artifact tw.com.softleader\:softleader-domain\:pom\:1.1.6-RELEASE from/to snapshot (http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots)\: connect timed out
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=Could not transfer artifact tw.com.softleader\:softleader-domain\:pom\:1.1.6-RELEASE from/to release (http\://softleader.com.tw\:8082/nexus/content/repositories/releases)\: connect timed out
+@default-snapshots-http\://svn.softleader.com.tw\:8084/repository/maven-snapshots/.lastUpdated=1538733675617
+http\://repo.maven.apache.org/maven2/.lastUpdated=1538733655337
+@default-release-http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1540894989687
+http\://svn.softleader.com.tw\:8084/repository/thirdparty/.error=Could not transfer artifact tw.com.softleader\:softleader-domain\:pom\:1.1.6-RELEASE from/to thirdparty (http\://svn.softleader.com.tw\:8084/repository/thirdparty/)\: connect timed out
+http\://repo.maven.apache.org/maven2/.error=
+http\://svn.softleader.com.tw\:8084/repository/maven-snapshots/.error=Could not transfer artifact tw.com.softleader\:softleader-domain\:pom\:1.1.6-RELEASE from/to snapshots (http\://svn.softleader.com.tw\:8084/repository/maven-snapshots/)\: connect timed out
+http\://repository.springsource.com/maven/bundles/external/.error=
+@default-snapshot-http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1540894999690
+@default-thirdparty-http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1540895009693
+@default-releases-http\://svn.softleader.com.tw\:8084/repository/maven-releases/.lastUpdated=1538733665477
+@default-thirdparty-http\://svn.softleader.com.tw\:8084/repository/thirdparty/.lastUpdated=1538733685756
+http\://svn.softleader.com.tw\:8084/repository/maven-releases/.error=Could not transfer artifact tw.com.softleader\:softleader-domain\:pom\:1.1.6-RELEASE from/to releases (http\://svn.softleader.com.tw\:8084/repository/maven-releases/)\: connect timed out
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=Could not transfer artifact tw.com.softleader\:softleader-domain\:pom\:1.1.6-RELEASE from/to thirdparty (http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty)\: connect timed out
+http\://repo1.maven.org/maven2/.error=

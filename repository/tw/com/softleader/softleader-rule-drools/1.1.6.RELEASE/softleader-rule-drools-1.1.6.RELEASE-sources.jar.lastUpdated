@@ -1,0 +1,18 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Dec 07 20:25:30 CST 2018
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=Could not transfer artifact tw.com.softleader\:softleader-rule-drools\:jar\:sources\:1.1.6.RELEASE from/to thirdparty (http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty)\: connect timed out
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=Could not transfer artifact tw.com.softleader\:softleader-rule-drools\:jar\:sources\:1.1.6.RELEASE from/to snapshot (http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots)\: connect timed out
+http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.error=Could not transfer artifact tw.com.softleader\:softleader-rule-drools\:jar\:sources\:1.1.6.RELEASE from/to jboss-ga-repository (http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/)\: connect timed out
+@default-http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.lastUpdated=1502076739429
+http\://repo.maven.apache.org/maven2/.lastUpdated=1502076742978
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=Could not transfer artifact tw.com.softleader\:softleader-rule-drools\:jar\:sources\:1.1.6.RELEASE from/to release (http\://softleader.com.tw\:8082/nexus/content/repositories/releases)\: connect timed out
+http\://repo.maven.apache.org/maven2/.error=
+@default-http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1502076719397
+http\://repo1.maven.org/maven2/.error=
+http\://repo1.maven.org/maven2/.lastUpdated=1544185530764
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1502076742530
+@default-http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1502076709390
+@default-http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1502076729408
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1502076741983

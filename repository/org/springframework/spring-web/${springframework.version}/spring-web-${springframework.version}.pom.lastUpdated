@@ -1,0 +1,18 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri May 04 09:24:57 CST 2018
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=Could not transfer artifact org.springframework\:spring-web\:pom\:${springframework.version} from/to thirdparty (http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty)\: connect timed out
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=Could not transfer artifact org.springframework\:spring-web\:pom\:${springframework.version} from/to snapshot (http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots)\: connect timed out
+@default-thirdparty-http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1525397086672
+http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.error=Could not transfer artifact org.springframework\:spring-web\:pom\:${springframework.version} from/to jboss-ga-repository (http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/)\: connect timed out
+http\://repo.maven.apache.org/maven2/.lastUpdated=1525397056657
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=Could not transfer artifact org.springframework\:spring-web\:pom\:${springframework.version} from/to release (http\://softleader.com.tw\:8082/nexus/content/repositories/releases)\: connect timed out
+http\://repo.maven.apache.org/maven2/.error=
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1525397097545
+@default-jboss-ga-repository-http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.lastUpdated=1525397096688
+http\://repo1.maven.org/maven2/.lastUpdated=1525397054011
+http\://repo1.maven.org/maven2/.error=
+@default-snapshot-http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1525397076667
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1525397097138
+@default-release-http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1525397066660

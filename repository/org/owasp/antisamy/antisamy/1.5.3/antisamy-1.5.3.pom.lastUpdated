@@ -1,0 +1,13 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Aug 29 16:10:59 CST 2017
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=Could not transfer artifact org.owasp.antisamy\:antisamy\:pom\:1.5.3 from/to thirdparty (http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty)\: connect timed out
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=Could not transfer artifact org.owasp.antisamy\:antisamy\:pom\:1.5.3 from/to snapshot (http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots)\: connect timed out
+http\://repo.maven.apache.org/maven2/.lastUpdated=1503994259946
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=Could not transfer artifact org.owasp.antisamy\:antisamy\:pom\:1.5.3 from/to release (http\://softleader.com.tw\:8082/nexus/content/repositories/releases)\: connect timed out
+@default-http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1503994248545
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1503994259447
+@default-http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1503994238537
+@default-http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1503994258561
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1503994259028

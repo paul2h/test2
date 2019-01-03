@@ -1,0 +1,21 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Nov 18 16:06:27 CST 2016
+http\://jasperreports.sourceforge.net/maven2/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.lastUpdated=1479456386089
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1479456383354
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1479456383889
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1479456384147
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=
+http\://jasperreports.sourceforge.net/maven2/.lastUpdated=1479456386530
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1479456382795
+https\://repo.maven.apache.org/maven2/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1479456382776
+http\://www.mygrid.org.uk/maven/repository/.lastUpdated=1479456385519
+http\://jaspersoft.artifactoryonline.com/jaspersoft/third-party-ce-artifacts/.lastUpdated=1479456387281
+http\://www.mygrid.org.uk/maven/repository/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1479456382848
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=

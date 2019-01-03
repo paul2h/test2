@@ -1,0 +1,20 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jan 02 18:06:39 CST 2019
+http\://repo1.maven.org/maven2/.lastUpdated=1546423599094
+@default-http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1501840398554
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1501840419095
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1501840419531
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=Could not transfer artifact tw.com.softleader\:softleader-domain\:jar\:sources\:1.1.6.RELEASE from/to snapshot (http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots)\: connect timed out
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=Could not transfer artifact tw.com.softleader\:softleader-domain\:jar\:sources\:1.1.6.RELEASE from/to release (http\://softleader.com.tw\:8082/nexus/content/repositories/releases)\: connect timed out
+@default-http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1501840408561
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1518162065343
+http\://repo.maven.apache.org/maven2/.lastUpdated=1501840420109
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact tw.com.softleader\:softleader-domain\:jar\:sources\:1.1.6.RELEASE from/to central (https\://repo.maven.apache.org/maven2)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+http\://repo.maven.apache.org/maven2/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+@default-http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.lastUpdated=1504574738873
+http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.error=Could not transfer artifact tw.com.softleader\:softleader-domain\:jar\:sources\:1.1.6.RELEASE from/to jboss-ga-repository (http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/)\: connect timed out
+@default-http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1501840418568
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://repo1.maven.org/maven2/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=Could not transfer artifact tw.com.softleader\:softleader-domain\:jar\:sources\:1.1.6.RELEASE from/to thirdparty (http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty)\: connect timed out

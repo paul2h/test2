@@ -1,0 +1,15 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Dec 25 11:47:39 CST 2017
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1514173659300
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1479456596638
+http\://download.java.net/maven/2/.lastUpdated=1514173651472
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://download.java.net/maven/2/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1479456575085
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact com.myfont.report\:myfont-report\:jar\:1.0.0 from/to central (https\://repo.maven.apache.org/maven2)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1479456580067
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1514173656168
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1514173653847

@@ -1,0 +1,13 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Nov 28 11:38:54 CST 2016
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1480304182196
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1480304175869
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1480304334055
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1480304177456
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1480304258813
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1480304216724

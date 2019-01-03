@@ -1,0 +1,12 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Dec 08 10:06:42 CST 2016
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.error=
+http\://www.mygrid.org.uk/maven/repository/.lastUpdated=1481162801375
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1481162795628
+http\://www.mygrid.org.uk/maven/repository/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.lastUpdated=1481162795648
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1481162795597
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1481162802343

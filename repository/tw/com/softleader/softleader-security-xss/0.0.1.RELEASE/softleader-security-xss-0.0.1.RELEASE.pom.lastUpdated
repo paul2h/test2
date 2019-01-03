@@ -1,0 +1,10 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Dec 25 11:48:23 CST 2017
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1514173703143
+http\://download.java.net/maven/2/.lastUpdated=1514173702650
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1514173702898
+http\://repository.springsource.com/maven/bundles/external/.error=
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1514173703431
+http\://download.java.net/maven/2/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact tw.com.softleader\:softleader-security-xss\:pom\:0.0.1.RELEASE from/to central (https\://repo.maven.apache.org/maven2)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+http\://repository.springsource.com/maven/bundles/release/.error=

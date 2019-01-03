@@ -1,0 +1,87 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>softleader-gardenia-life-web</artifactId>
+	<description>SoftLeader project for gardenia-life-web</description>
+	<packaging>war</packaging>
+
+	<parent>
+		<groupId>tw.com.softleader</groupId>
+		<artifactId>softleader-gardenia</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<properties>
+		<spring.version>4.2.5.RELEASE</spring.version>
+		<apachetiles.version>3.0.5</apachetiles.version>
+	</properties>
+
+	<name>softleader-gardenia-life-web</name>
+	<url>http://www.softleader.com.tw</url>
+	
+	<dependencies>
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-gardenia-life-data</artifactId>
+			<version>${gardenia.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-gardenia-life-integration</artifactId>
+			<version>${gardenia.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-gardenia-life-product</artifactId>
+			<version>${gardenia.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-gardenia-life-policy</artifactId>
+			<version>${gardenia.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-gardenia-life-claim</artifactId>
+			<version>${gardenia.version}</version>
+		</dependency>
+
+		<!-- softleader-framework -->
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-web-mvc</artifactId>
+			<version>${softleader-framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>tw.com.softleader</groupId>
+			<artifactId>softleader-specification-arg-resolver</artifactId>
+			<version>0.9.1-SNAPSHOT</version>
+		</dependency>
+
+		<!-- Tiles -->
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-extras</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-servlet</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-jsp</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jsp-api</artifactId>
+			<version>2.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.jawr.extensions</groupId>
+			<artifactId>jawr-spring-extension</artifactId>
+			<version>3.9</version>
+		</dependency>
+	</dependencies>
+</project>

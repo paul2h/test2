@@ -1,0 +1,20 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Oct 19 17:29:11 CST 2018
+http\://repo1.maven.org/maven2/.lastUpdated=1539941170482
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1514173653842
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1514173656163
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1514173659295
+@default-snapshots-http\://svn.softleader.com.tw\:8084/repository/maven-snapshots/.lastUpdated=1539941291785
+http\://repo.maven.apache.org/maven2/.lastUpdated=1539941171659
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact tw.com.softleader\:softleader-security\:jar\:1.1.6.RELEASE from/to central (https\://repo.maven.apache.org/maven2)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+http\://svn.softleader.com.tw\:8084/repository/thirdparty/.error=Could not transfer artifact tw.com.softleader\:softleader-security\:jar\:1.1.6.RELEASE from/to thirdparty (http\://svn.softleader.com.tw\:8084/repository/thirdparty/)\: connect timed out
+http\://download.java.net/maven/2/.lastUpdated=1514173651460
+http\://repo.maven.apache.org/maven2/.error=
+http\://download.java.net/maven/2/.error=
+http\://svn.softleader.com.tw\:8084/repository/maven-snapshots/.error=Could not transfer artifact tw.com.softleader\:softleader-security\:jar\:1.1.6.RELEASE from/to snapshots (http\://svn.softleader.com.tw\:8084/repository/maven-snapshots/)\: connect timed out
+http\://repository.springsource.com/maven/bundles/external/.error=
+@default-releases-http\://svn.softleader.com.tw\:8084/repository/maven-releases/.lastUpdated=1539941231713
+@default-thirdparty-http\://svn.softleader.com.tw\:8084/repository/thirdparty/.lastUpdated=1539941351854
+http\://svn.softleader.com.tw\:8084/repository/maven-releases/.error=Could not transfer artifact tw.com.softleader\:softleader-security\:jar\:1.1.6.RELEASE from/to releases (http\://svn.softleader.com.tw\:8084/repository/maven-releases/)\: connect timed out
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://repo1.maven.org/maven2/.error=

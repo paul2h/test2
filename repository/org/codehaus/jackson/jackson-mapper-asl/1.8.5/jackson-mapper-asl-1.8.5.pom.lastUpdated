@@ -1,0 +1,16 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Dec 08 09:34:47 CST 2017
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1512696887452
+http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.error=Could not transfer artifact org.codehaus.jackson\:jackson-mapper-asl\:pom\:1.8.5 from/to thirdparty (http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty)\: connect timed out
+http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.error=Could not transfer artifact org.codehaus.jackson\:jackson-mapper-asl\:pom\:1.8.5 from/to snapshot (http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots)\: connect timed out
+@default-thirdparty-http\://softleader.com.tw\:8082/nexus/content/repositories/thirdparty/.lastUpdated=1512696876187
+http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.error=Could not transfer artifact org.codehaus.jackson\:jackson-mapper-asl\:pom\:1.8.5 from/to jboss-ga-repository (http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/)\: connect timed out
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.error=Could not transfer artifact org.codehaus.jackson\:jackson-mapper-asl\:pom\:1.8.5 from/to release (http\://softleader.com.tw\:8082/nexus/content/repositories/releases)\: connect timed out
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.codehaus.jackson\:jackson-mapper-asl\:pom\:1.8.5 from/to central (https\://repo.maven.apache.org/maven2)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+@default-jboss-ga-repository-http\://softleader.com.tw\:8082/nexus/content/repositories/jboss-ga-repository/.lastUpdated=1512696886194
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1512696887116
+@default-snapshot-http\://softleader.com.tw\:8082/nexus/content/repositories/snapshots/.lastUpdated=1512696866184
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1512696886687
+@default-release-http\://softleader.com.tw\:8082/nexus/content/repositories/releases/.lastUpdated=1512696856179

@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Dec 06 15:11:18 CST 2016
+hsqldb-2.3.3-sources.jar>central=
+hsqldb-2.3.3.jar>thirdparty=
+hsqldb-2.3.3.pom>thirdparty=
